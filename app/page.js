@@ -22,29 +22,9 @@ async function getData() {
   return filtered;
 };
 
-async function logVisitor() {
-  try {
-    const response = await fetch("http://localhost:3000/api/logVisitor", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        duration: 120, // Include any data required
-      }),
-    });
-
-    const data = await response.json();
-    console.log("Response from API:", data);
-  } catch (error) {
-    console.error("Error logging visitor:", error);
-  }
-}
 
 export default async function Home() {
   const blogs = await getData();
-
-  await logVisitor();
 
   return (
     <>
