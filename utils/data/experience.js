@@ -9,6 +9,12 @@ export const experiences = [
     id: 2,
     title: "Backend Engineer",
     company: "eVitalRx",
-    duration: "(June 2024 - Present)"
+    duration: "(June 2024 - June 2025)"
+  },
+  {
+    id: 3,
+    title: "Python Developer",
+    company: "FluentLeaf Infotech",
+    duration: "(July 2025 - Present)"
   }
 ]
