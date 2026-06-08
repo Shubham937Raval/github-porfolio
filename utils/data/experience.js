@@ -1,20 +1,20 @@
 export const experiences = [
   {
     id: 1,
-    title: 'MERN Stack InternShip',
-    company: "NCode Technologies",
-    duration: "(Nov 2023 - May 2024)"
+    title: 'Python Developer',
+    company: "FluentLeaf Infotech",
+    duration: "(Jul 2025 - Present)"
   },
   {
     id: 2,
     title: "Backend Engineer",
     company: "eVitalRx",
-    duration: "(June 2024 - June 2025)"
+    duration: "(Jun 2024 - Jun 2025)"
   },
   {
     id: 3,
-    title: "Python Developer",
-    company: "FluentLeaf Infotech",
-    duration: "(July 2025 - Present)"
+    title: "MERN Stack Intern",
+    company: "NCode Technologies",
+    duration: "(Nov 2023 - May 2024)"
   }
 ]
